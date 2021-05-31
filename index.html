@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <!-- https://cdnjs.com/libraries/twitter-bootstrap/5.0.0-beta1 -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css" />
+
+  <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
+  <!-- https://cdnjs.com/libraries/font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="style.css">
+
+  <title>Video Assignment</title>
+</head>
+
+<body>
+  <!-- ===================Header_section======================= -->
+
+  <div class="header-section">
+    <!-- <div class="container"> -->
+    <div class="row">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light py-3">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo-png.webp" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Blog</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Another action <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Something else here <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Something else here <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Something else here <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Something else here <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Something else here <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Something else here <i class="bi bi-chevron-right"></i></a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Elements</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Another action <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Something else here <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Something else here <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Something else here <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Something else here <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Something else here <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Something else here <i class="bi bi-chevron-right"></i></a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle me-3" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">Features</a>
+
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Another action <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Something else here <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Something else here <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Something else here <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Something else here <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Something else here <i class="bi bi-chevron-right"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Something else here <i class="bi bi-chevron-right"></i></a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="d-flex social-icons">
+              |<a href=""> <i class="bi bi-search mx-4"></i>|</a>
+              <i class="bi bi-cart-fill mx-lg-3"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  </div>
+
+  <section>
+    <!-- =================Carousel-section=============== -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button class="m-3 cercle active" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+          class="actives" aria-current="true" aria-label="Slide 1"></button>
+        <button class="m-3 cercle" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button class="m-3 cercle" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/homepage-5-slider-img-1-1-1200x563.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="cauousel-banner">
+              <p class=" text muted animate__animated animate__fadeInRightBig">We are a design studio that believe in the ideas</p>
+              <h1 class="animate__animated animate__fadeInLeftBig">craf elegant <br> Solution</h1>
+              <div class="buttons">
+                <a class="btn btn-outline-light animate__animated animate__fadeInUp" href="#">Pharshes Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/homepage-5-slider-img-2-1-1200x563.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="cauousel-banner">
+              <p class=" text muted animate__animated animate__fadeInRightBig">We are a design studio that believe in the ideas</p>
+              <h1 class="animate__animated animate__fadeInLeftBig">craf elegant <br> Solution</h1>
+              <div class="buttons">
+                <a class="btn btn-outline-light animate__animated animate__fadeInUp" href="#">Pharshes Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/homepage-5-slider-img-3-1-1200x563.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="cauousel-banner">
+              <p class=" text muted animate__animated animate__fadeInRightBig">We are a design studio that believe in the ideas</p>
+              <h1 class="animate__animated animate__fadeInLeftBig">craf elegant <br> Solution</h1>
+              <div class="buttons">
+                <a class="btn btn-outline-light animate__animated animate__fadeInUp" href="#">Pharshes Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+  <section>
+    <div class="agency_section py-5 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="agency_title py-5 my-5">
+            <p class="text-muted text-uppercase">about digital agency</p>
+            <p class="h3 title_p">We always stay with our <span class="text-dark">clients and respect</span> business.
+              We <br> deliner 100% and provide instant response to help them succeed in <br> constantly and <span
+                class="text-dark">chappenging business</span> world</p>
+          </div>
+          <div class="col-xl-4">
+
+            <div class="agency">
+              <div class="card border-0 pb-3" style="width: 25rem;">
+                <div class="card_img">
+                  <img src="./img/latest-blog6-350x233-jpg.webp" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title text-muted mt-4">Understand The situtation</h6>
+                  <p class="card-text text-muted mt-3">Lorem Ipsum is simply text fo the printing and typestting
+                    industry. Lorem ipsum has been standard dummy.</p>
+                  <a href="#" class="btn2 btn btn-outline-dark">Explore Services <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xl-4">
+
+            <div class="agency">
+              <div class="card border-0 pb-3" style="width: 25rem;">
+                <div class="card_img">
+                  <img src="./img/latest-blog5-350x233-jpg.webp" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title text-muted mt-4">Understand The situtation</h6>
+                  <p class="card-text text-muted mt-3">Lorem Ipsum is simply text fo the printing and typestting
+                    industry. Lorem ipsum has been standard dummy.</p>
+                  <a href="#" class="btn2 btn btn-outline-dark">Explore Services <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+
+            <div class="agency">
+              <div class="card border-0 pb-3" style="width: 25rem;">
+                <div class="card_img">
+                  <img src="./img/latest-blog7-350x233-jpg.webp" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title text-muted mt-4">Understand The situtation</h6>
+                  <p class="card-text text-muted mt-3">Lorem Ipsum is simply text fo the printing and typestting
+                    industry. Lorem ipsum has been standard dummy.</p>
+                  <a href="#" class="btn2 btn btn-outline-dark">Explore Services <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <!-- ================Choose-section============== -->
+
+    <div class="choose_section text-center py-5">
+      <div class="container">
+        <div class="choose_title py-5 mb-5">
+          <p class="text-muted text-uppercase"> Why choose us?</p>
+          <h3 class="text-light">We are delivering beautiful <br> degital products for you</h3>
+        </div>
+        <div class="row gx-5 mb-5">
+          <div class="col-xl-3">
+
+            <div class="choose">
+              <div class="choose_icon">
+                <i class="fas fa-tv"></i>
+              </div>
+              <h6 class="mt-4">Unique Design</h6>
+              <p class="fixedd_size">Lorem ipsum is siply text of the printing and typesetting industry. Lorem ipsum has
+                been standard dummy.</p>
+            </div>
+
+          </div>
+          <div class="col-xl-3">
+            <div class="choose">
+              <div class="choose_icon">
+                <i class="fas fa-pencil-ruler"></i>
+              </div>
+              <h6 class="mt-4">Defferent layout</h6>
+              <p class="fixedd_size">Lorem ipsum is siply text of the printing and typesetting industry. Lorem ipsum has
+                been standard dummy.</p>
+            </div>
+
+          </div>
+          <div class="col-xl-3">
+            <div class="choose">
+              <div class="choose_icon">
+                <i class="fas fa-bullseye"></i>
+              </div>
+              <h6 class="mt-4">Portfolio Styles</h6>
+              <p class="fixedd_size">Lorem ipsum is siply text of the printing and typesetting industry. Lorem ipsum has
+                been standard dummy.</p>
+            </div>
+
+          </div>
+          <div class="col-xl-3">
+            <div class="choose">
+              <div class="choose_icon">
+                <i class="fas fa-laptop"></i>
+              </div>
+              <h6 class="mt-4">Wordpress Theme</h6>
+              <p class="fixedd_size">Lorem ipsum is siply text of the printing and typesetting industry. Lorem ipsum has
+                been standard dummy.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <!-- ===============Gallery-section=================== -->
+
+    <div class="gallery_section py-5">
+      <div class="container-fluid my-5">
+        <div class="gallery_menu text-center mb-5 pb-3">
+          <ul>
+            <li class=" actives"><a class="fixedd_size text-decoration-none" href="#">All</a></li>
+            <li><a class="fixedd_size text-decoration-none text-uppercase" href="#">Brochure</a></li>
+            <li><a class="fixedd_size text-decoration-none text-uppercase" href="#">Branding</a></li>
+            <li><a class="fixedd_size text-decoration-none text-uppercase" href="#">Identity</a></li>
+            <li><a class="fixedd_size text-decoration-none text-uppercase" href="#">web</a></li>
+            <li><a class="fixedd_size text-decoration-none text-uppercase" href="#">Photography</a></li>
+          </ul>
+        </div>
+        <div class="row gx-0">
+          <div class="col-xl-3">
+
+            <div class="gallery">
+              <div class="g_img position-relative">
+                <img class="img-fluid" src="./img/portfolio-item20.jpg" alt="">
+                <div class="inner_content position-absolute">
+                  <div class="g_border my-4"></div>
+                  <h5 class="text-uppercase">Herbal beauty salon</h5>
+                  <p class="text-uppercase fixedd_size">Branding And identity</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xl-3">
+            <div class="gallery">
+              <div class="g_img position-relative">
+                <img class="img-fluid" src="./img/portfolio-item23-600x488.jpg" alt="">
+                <div class="inner_content position-absolute">
+                  <div class="g_border my-4"></div>
+                  <h5 class="text-uppercase">Herbal beauty salon</h5>
+                  <p class="text-uppercase fixedd_size">Branding And identity</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="gallery">
+              <div class="g_img position-relative">
+                <img class="img-fluid" src="./img/portfolio-item22-600x488.jpg" alt="">
+                <div class="inner_content position-absolute">
+                  <div class="g_border my-4"></div>
+                  <h5 class="text-uppercase">Herbal beauty salon</h5>
+                  <p class="text-uppercase fixedd_size">Branding And identity</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="gallery">
+              <div class="g_img position-relative">
+                <img class="img-fluid" src="./img/portfolio-item21-600x488.jpg" alt="">
+                <div class="inner_content position-absolute">
+                  <div class="g_border my-4"></div>
+                  <h5 class="text-uppercase">Herbal beauty salon</h5>
+                  <p class="text-uppercase fixedd_size">Branding And identity</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="gallery">
+              <div class="g_img position-relative">
+                <img class="img-fluid" src="./img/portfolio-item24-600x488.jpg" alt="">
+                <div class="inner_content position-absolute">
+                  <div class="g_border my-4"></div>
+                  <h5 class="text-uppercase">Herbal beauty salon</h5>
+                  <p class="text-uppercase fixedd_size">Branding And identity</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="gallery">
+              <div class="g_img position-relative">
+                <img class="img-fluid" src="./img/portfolio-item16-600x488.jpg" alt="">
+                <div class="inner_content position-absolute">
+                  <div class="g_border my-4"></div>
+                  <h5 class="text-uppercase">Herbal beauty salon</h5>
+                  <p class="text-uppercase fixedd_size">Branding And identity</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="gallery">
+              <div class="g_img position-relative">
+                <img class="img-fluid" src="./img/portfolio-item26-600x488.jpg" alt="">
+                <div class="inner_content position-absolute">
+                  <div class="g_border my-4"></div>
+                  <h5 class="text-uppercase">Herbal beauty salon</h5>
+                  <p class="text-uppercase fixedd_size">Branding And identity</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="gallery">
+              <div class="g_img position-relative">
+                <img class="img-fluid" src="./img/portfolio-item19-600x488.jpg" alt="">
+                <div class="inner_content position-absolute">
+                  <div class="g_border my-4"></div>
+                  <h5 class="text-uppercase">Herbal beauty salon</h5>
+                  <p class="text-uppercase fixedd_size">Branding And identity</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =================count-section================ -->
+
+  <section>
+
+    <div class="count_section mb-5  text-center">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xl-3">
+            <div class="rounds">
+              <div class="r_cercle">
+                <div class="r_content">
+                  <h4>90%</h4>
+                  <p class="text-uppercase fixedd_size">Graphic Design</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3">
+            <div class="rounds">
+              <div class="r_cercle">
+                <div class="r_content">
+                  <h4>75%</h4>
+                  <p class="text-uppercase fixedd_size">web design</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="rounds">
+              <div class="r_cercle">
+                <div class="r_content">
+                  <h4>90%</h4>
+                  <p class="text-uppercase fixedd_size">Branding</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="rounds">
+              <div class="r_cercle">
+                <div class="r_content">
+                  <h4>62%</h4>
+                  <p class="text-uppercase fixedd_size">Photography</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ===============Media_section=================== -->
+  <section>
+
+    <div class="media_section my-5 py-5">
+      <div class="container-fluid">
+        <div class="row gx-2">
+          <div class="col-xl-4">
+
+            <div class="media">
+              <div class="m_img">
+                <img class="img-fluid" src="./img/case-study-01-jpg.webp" alt="">
+                <div class="inner_media">
+                  <div class="i_content">
+                    <p class="fixedd_size sizes">Rubber Studio</p>
+                    <div class="media_border mt-2 mb-3"></div>
+                    <h4>A Rich Heritage & <br> Brand History</h4>
+                    <div class="media-btn">
+                      <a class="btn btn3 text-uppercase" href="#">View case studey</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xl-4">
+            <div class="media">
+              <div class="m_img">
+                <img class="img-fluid" src="./img/case-study-02-jpg.webp" alt="">
+                <div class="inner_media">
+                  <div class="i_content">
+                    <p class="fixedd_size sizes">RedDot Media</p>
+                    <div class="media_border mt-2 mb-3"></div>
+                    <h4>Global Partners <br>Increases Revenue</h4>
+                    <div class="media-btn">
+                      <a class="btn btn3 text-uppercase" href="#">View case studey</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="media">
+              <div class="m_img">
+                <img class="img-fluid" src="./img/case-study-03-jpg.webp" alt="">
+                <div class="inner_media">
+                  <div class="i_content">
+                    <p class="fixedd_size sizes">Third Eye Glasses</p>
+                    <div class="media_border mt-2 mb-3"></div>
+                    <h4>Improves Sales <br> Efficiency with us</h4>
+                    <div class="media-btn">
+                      <a class="btn btn3 text-uppercase" href="#">View case studey</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- =============Team_section================== -->
+  <section>
+
+    <div class="team_section text-center mb-5 pb-5">
+      <div class="container">
+        <div class="choose_title py-5 mb-5">
+          <p class="text-muted text-uppercase">Creative people</p>
+          <h3 class="text-light team_heading">Teamwork builds trust and the <br> trust build growth</h3>
+        </div>
+        <div class="row gx-4">
+          <div class="col-xl-3">
+            <div class="team">
+              <div class="t_img text-center">
+                <img class="img-fluid" src="./img/team13.jpg" alt="">
+                <div class="t_inner">
+                  <div class="t_content">
+                    <p class="text-light">lorem ipsum is simply dummy text <br> of the printing and typesetting <br>
+                      insustry dummy text.</p>
+                    <div class="team_border"></div>
+                    <ul class="list-unstyled">
+                      <li class="d-inline-block mx-3"><a href="#"><i class="fab fa-facebook-f text-light"
+                            aria-hidden="true"></i></a></li>
+                      <li class="d-inline-block mx-3"><a href="#"><i class="fab fa-twitter text-light"
+                            aria-hidden="true"></i></a></li>
+                      <li class="d-inline-block mx-3"><a href="#"><i class="fab fa-google-plus text-light"
+                            aria-hidden="true"></i></a></li>
+                      <li class="d-inline-block mx-3"><a href="#"><i class="fab fa-instagram text-light"
+                            aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h6 class="text-uppercase mt-4">herman miller</h6>
+            <p class="fixedd_size text-uppercase">creative director</p>
+          </div>
+          <div class="col-xl-3">
+            <div class="team">
+              <div class="t_img text-center">
+                <img class="img-fluid" src="./img/team18.jpg" alt="">
+                <div class="t_inner">
+                  <div class="t_content">
+                    <p class="text-light">lorem ipsum is simply dummy text <br> of the printing and typesetting <br>
+                      insustry dummy text.</p>
+                    <div class="team_border"></div>
+                    <ul class="list-unstyled">
+                      <li class="d-inline-block mx-3"><a href="#"><i class="fab fa-facebook-f text-light"
+                            aria-hidden="true"></i></a></li>
+                      <li class="d-inline-block mx-3"><a href="#"><i class="fab fa-twitter text-light"
+                            aria-hidden="true"></i></a></li>
+                      <li class="d-inline-block mx-3"><a href="#"><i class="fab fa-google-plus text-light"
+                            aria-hidden="true"></i></a></li>
+                      <li class="d-inline-block mx-3"><a href="#"><i class="fab fa-instagram text-light"
+                            aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h6 class="text-uppercase mt-4">bill gardner</h6>
+            <p class="fixedd_size text-uppercase text-muted">co-founder/ designer</p>
+          </div>
+          <div class="col-xl-3">
+            <div class="team">
+              <div class="t_img text-center">
+                <img class="img-fluid" src="./img/team14.jpg" alt="">
+                <div class="t_inner">
+                  <div class="t_content">
+                    <p class="text-light">lorem ipsum is simply dummy text <br> of the printing and typesetting <br>
+                      insustry dummy text.</p>
+                    <div class="team_border"></div>
+                    <ul class="list-unstyled">
+                      <li class="d-inline-block mx-3"><a href="#"><i class="fab fa-facebook-f text-light"
+                            aria-hidden="true"></i></a></li>
+                      <li class="d-inline-block mx-3"><a href="#"><i class="fab fa-twitter text-light"
+                            aria-hidden="true"></i></a></li>
+                      <li class="d-inline-block mx-3"><a href="#"><i class="fab fa-google-plus text-light"
+                            aria-hidden="true"></i></a></li>
+                      <li class="d-inline-block mx-3"><a href="#"><i class="fab fa-instagram text-light"
+                            aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h6 class="text-uppercase mt-4">Jeremy dupont</h6>
+            <p class="fixedd_size text-uppercase">creative director</p>
+          </div>
+          <div class="col-xl-3">
+            <div class="team">
+              <div class="t_img text-center">
+                <img class="img-fluid" src="./img/team17.jpg" alt="">
+                <div class="t_inner">
+                  <div class="t_content">
+                    <p class="text-light">lorem ipsum is simply dummy text <br> of the printing and typesetting <br>
+                      insustry dummy text.</p>
+                    <div class="team_border"></div>
+                    <ul class="list-unstyled">
+                      <li class="d-inline-block mx-3"><a href="#"><i class="fab fa-facebook-f text-light"
+                            aria-hidden="true"></i></a></li>
+                      <li class="d-inline-block mx-3"><a href="#"><i class="fab fa-twitter text-light"
+                            aria-hidden="true"></i></a></li>
+                      <li class="d-inline-block mx-3"><a href="#"><i class="fab fa-google-plus text-light"
+                            aria-hidden="true"></i></a></li>
+                      <li class="d-inline-block mx-3"><a href="#"><i class="fab fa-instagram text-light"
+                            aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h6 class="text-uppercase mt-4">sara smith</h6>
+            <p class="fixedd_size text-uppercase">creative studio head</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+  <!-- ==========Experinces-section================== -->
+
+  <div class="experience_section mb-5">
+    <div class="container-fluid">
+      <div class="row gx-0">
+        <div class="col-xl-6">
+          <div class="ex_left">
+            <div class="lefte_img">
+              <img class="img-fluid" src="./img/Screenshot_2.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="ex_right text-light">
+            <div class="re_content">
+              <h4>We cteate premium desings and technology</h4>
+              <h1 class="text-light">A digital studio crafting <br> beautiful experiences.</h1>
+              <p class="fixedd_size text-muted my-5">lorem Ipsum is simply dummy text of the printing and typestting
+                industy. Lorem ipsum has <br> been the insustry's standard dummy text ever since. Lorem ipsum has been
+                the industry. <br> Lorem Ipsum is simply dummy text of the printing and industry. Lorem iPsum has been
+                the <br> insutry's standard dummy text ever since. Lorem Ipsum has been the industry</p>
+
+              <div class="ex_button">
+                <a class="btn" href="#">Start your bussiness</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =============Blog_section=============== -->
+  <section>
+    <div class="blog_section pb-5 mb-5">
+      <div class="container">
+        <div class="choose_title text-center py-5 mb-5">
+          <p class="text-muted text-uppercase">Latest blogs</p>
+          <h3 class="text-light team_heading">Publish what tou thinks, don't <br> put it on social media</h3>
+        </div>
+        <div class="row">
+
+          <div class="col-xl-3">
+            <div class="blog">
+              <div class="card border-0" style="width: 18rem;">
+                <div class="cards_img">
+                  <img class="img-fluid" src="./img/latest-blog1.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <p class="text-uppercase fixedd_size">25 april 2016 | By jay benjamin</p>
+                  <h6 class="card-title">I like the bodh i like to design <br> everything to do with the body</h6>
+                  <hr>
+                  <p class="card-text text-muted fixedd_size">Lorem Ipsum is simply dummy text of <br> the printing and
+                    typesetting industry. <br> Lorem Ipsum has....</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="blog">
+              <div class="card border-0" style="width: 18rem;">
+                <div class="cards_img">
+                  <img class="img-fluid" src="./img/latest-blog2.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <p class="text-uppercase fixedd_size jhamelarp">25 april 2016 | By jay benjamin</p>
+                  <h6 class="card-title">I like the bodh i like to design <br> everything to do with the body</h6>
+                  <hr>
+                  <p class="card-text text-muted fixedd_size">Lorem Ipsum is simply dummy text of <br> the printing and
+                    typesetting industry. <br> Lorem Ipsum has....</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="blog">
+              <div class="card border-0" style="width: 18rem;">
+                <div class="cards_img">
+                  <img class="img-fluid" src="./img/latest-blog3.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <p class="text-uppercase fixedd_size">25 april 2016 | By jay benjamin</p>
+                  <h6 class="card-title">I like the bodh i like to design <br> everything to do with the body</h6>
+                  <hr>
+                  <p class="card-text text-muted fixedd_size">Lorem Ipsum is simply dummy text of <br> the printing and
+                    typesetting industry. <br> Lorem Ipsum has....</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="blog">
+              <div class="card border-0" style="width: 18rem;">
+                <div class="cards_img">
+                  <img class="img-fluid" src="./img/latest-blog4.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <p class="text-uppercase fixedd_size">25 april 2016 | By jay benjamin</p>
+                  <h6 class="card-title">I like the bodh i like to design <br> everything to do with the body</h6>
+                  <hr>
+                  <p class="card-text text-muted fixedd_size">Lorem Ipsum is simply dummy text of <br> the printing and
+                    typesetting industry. <br> Lorem Ipsum has....</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <!-- ============footer-top-section======================= -->
+    <div class="footer_top_section py-5 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 text-center">
+            <div class="f_left">
+              <h4>Unlimited power and customization possibilities?</h4>
+              <a class="btn" href="#">Purchase theme <i class="bi bi-cart-fill mx-lg-3"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================footer-center======================= -->
+  <section>
+
+    <div class="footer_c_section text-center pb-4 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4">
+            <div class="c_left border-end">
+              <h3>London Based <br> Creative Studio</h3>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="c_center border-end">
+              <p>301 The Greenhouse, <br> Custard Factory, London, E2 8DY. <br> <span> sales@gmail.com | 123 456
+                  7890</span></p>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="c_right">
+              <img src="./img/logo-white-png.webp" alt="">
+              <ul class="p-0">
+                <li class="d-inline-block m-2"><a class="text-decoration-none fixedd_size" href="#">TWITTER</a></li>
+                <li class="d-inline-block m-2"><a class="text-decoration-none fixedd_size" href="#">FACEBOOK</a></li>
+                <li class="d-inline-block m-2"><a class="text-decoration-none fixedd_size" href="#">INSTAGRAM</a></li>
+                <li class="d-inline-block m-2"><a class="text-decoration-none fixedd_size" href="#">DRIBBBLE</a></li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="footer_section">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3">
+                  <div class="footer footer1">
+                      <h4>FACTORY</h4>
+                      <div class="footer_border"></div>
+                      <p>Street 238,52 tempor <br>
+                          Donec ultricies mattis nulla, suscipit <br>
+                          risus tristique ut.</p>
+                      <ul>
+                          <li><strong>Phone</strong> 1.800.555.6789</li>
+                          <li><strong>Email</strong> support@sitename.com</li>
+                          <li><strong>website</strong>http://demo.com</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                  <div class="footer footer2">
+                      <h4>OUR SERVICES</h4>
+                      <div class="footer_border"></div>
+                      <ul>
+                          <li><a href="#"><i class="bi bi-chevron-right"></i> Home</a></li>
+                          <li><a href="#"><i class="bi bi-chevron-right"></i> About Us</a></li>
+                          <li><a href="#"><i class="bi bi-chevron-right"></i> Services</a></li>
+                          <li><a href="#"><i class="bi bi-chevron-right"></i> Blog</a></li>
+                          <li><a href="#"><i class="bi bi-chevron-right"></i> Contact Us</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                  <div class="footer footer2">
+                      <h4>QUICK LINKS</h4>
+                      <div class="footer_border"></div>
+                      <ul>
+                          <li><a href="#"><i class="bi bi-chevron-right"></i> Home</a></li>
+                          <li><a href="#"><i class="bi bi-chevron-right"></i> About Us</a></li>
+                          <li><a href="#"><i class="bi bi-chevron-right"></i> Services</a></li>
+                          <li><a href="#"><i class="bi bi-chevron-right"></i> Blog</a></li>
+                          <li><a href="#"><i class="bi bi-chevron-right"></i> Contact Us</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                  <div class="footer footer4">
+                      <h4>NEWSLETTER</h4>
+                      <div class="footer_border"></div>
+                      <input type="email" placeholder="Enter your email">
+                      <a class="btn7" href="#"><i class="fas fa-paper-plane"></i></a>
+                      <hr>
+
+                      <ul>
+                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fab fa-medium"></i></a></li>
+                          <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                          <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="footer_bottom text-center">
+          <hr>
+
+          <br>
+          <p>&copy; Copyright 2018. <span class="text-danger fw-bold">Ariyan Ahmed Masud </span>. All Rights Reserved by
+              SKT Themes</p>
+      </div>
+
+  </div>
+  </section>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js">
+  </script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+  <!-- https://cdnjs.com/libraries/popper.js/2.5.4 -->
+  <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"
+    ></script> -->
+
+  <!-- More: https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
+</body>
+
+</html>
